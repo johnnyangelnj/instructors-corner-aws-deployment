@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>FIRST AID/CPR/AED</title>
+		<script src="loadflash.js"> </script>
+		<!-- this needs to be present for height="100%" to work properly in some browsers -->
+		<style type="text/css">
+			<!--
+				body,html {
+					margin:0px; 
+					padding:0px;
+					height:100%;
+					overflow:hidden;
+				}
+			-->
+		</style>
+		<script type="text/vbscript" language="VBScript">
+			<!--
+				Sub SlideContent_FSCommand(ByVal command, ByVal args)
+					select case command
+						case "putHREF" location.href = args
+						case "putTitle" document.title = args
+						case else call SlideContent_DoFSCommand(command, args)
+					end select
+				end sub
+			-->
+		</script>
+		<script type="text/javascript" language="JavaScript">
+			<!--
+				var launchTime;
+				var launchHours;
+				var launchMinutes;
+				var launchSeconds;
+				
+				var currentTime;
+				var currentHours;
+				var currentMinutes;
+				var currentSeconds;
+				
+				function SaveLaunchTime()
+				{
+					launchTime = new Date();
+					launchHours = launchTime.getHours();
+					launchMinutes = launchTime.getMinutes();
+					launchSeconds = launchTime.getSeconds();
+				}
+				function SaveCurrentTime()
+				{
+					currentTime = new Date();
+					currentHours = currentTime.getHours();
+					currentMinutes = currentTime.getMinutes();
+					currentSeconds = currentTime.getSeconds();
+				}
+				
+				function url_query( query ) 
+				{
+					query = query.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+					var expr = "[\\?&]"+query+"=([^&#]*)";
+					var regex = new RegExp( expr );
+					var results = regex.exec( document.URL );
+					if( results !== null ) {
+						return results[1];
+						return decodeURIComponent(results[1].replace(/\+/g, " "));
+					} else {
+						return false;
+					}
+				}
+				function isHandheldDevice()
+				{
+					var lDevicesUserAgents = ["iphone","ipad","ios","android"];
+					var lDeviceUserAgentString = navigator.userAgent.toLowerCase();
+					
+					for(var i=0; i < lDevicesUserAgents.length; ++i)
+					{	
+						if(lDeviceUserAgentString.indexOf(lDevicesUserAgents[i]) != -1)
+							return true;
+					}
+					
+					return false;
+				}
+				function onbodyload()
+				{	
+					//alert(document.URL);
+				
+					if(isHandheldDevice())
+					{
+						var serverUrl = document.URL;
+						
+						var url_param = url_query('aicc_url');
+						if( url_param ) 
+						{
+						//	alert(url_param); // "yes"
+							serverUrl = url_param;
+						}
+						
+						//alert('iPad');
+						var cookie_string = document.cookie;
+						//alert(cookie_string);
+						
+						var openstr = "adobe://adobepresenter?";
+						//var querystr = serverUrl + "?" + "Non-LMS Content";
+						//document.write('<meta name="apple-itunes-app" content="app-id=517955602" app-argument='+openstr+'/>');
+				
+						
+						openstr = openstr + serverUrl;
+						openstr = openstr + "?";
+						openstr = openstr + "Non-LMS Content";
+						
+						SaveLaunchTime();
+						document.location = openstr;
+						
+						window.setTimeout
+						( 
+							function() 
+							{ 
+								//alert("inside timeout");
+								
+								SaveCurrentTime();
+								
+								var diffHours = currentHours - launchHours;
+								var diffMinutes = currentMinutes - launchMinutes;
+								var diffSeconds = currentSeconds - launchSeconds;
+								
+								//alert("diffHours = " + diffHours + " diffMinutes = " + diffMinutes + " diffSeconds = " + diffSeconds);
+								
+								if (diffHours > 0)
+								{
+									return;
+								}
+								if (diffMinutes > 0)
+								{
+									return;
+								}
+								if (diffSeconds > 2)
+								{
+									return;
+								}
+								
+								window.location = 'https://itunes.apple.com/in/app/presentermobile/id517955602?mt=8&uo=4'; 
+							},  
+							2000 
+						);
+						
+						
+					}
+					else
+					{
+						//alert('Desktop');
+						var url_param = url_query('aicc_url');
+						if( url_param ) 
+						{
+							//alert(url_param); // "yes"
+							serverUrl = url_param;
+						}
+					}
+				}
+		
+				function flashPutHref(href) { location.href = href; }
+				function flashPutTitle(title) { document.title = title; }
+				function SlideContent_DoFSCommand(command, args){}//no-op placeholder for the function call done in SlideContent_FSCommand
+			-->
+		</script>
+	</head>
+	<body onload="onbodyload()">
+		<script type="text/javascript" language="JavaScript">
+			showFlash("viewer.swf", "100%", "100%", false);
+		</script>
+	</body>
+</html>

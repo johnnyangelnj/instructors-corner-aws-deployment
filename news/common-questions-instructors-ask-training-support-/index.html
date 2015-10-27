@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><![endif]-->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>  | Instructor's Corner</title>
+        <meta name="author" content="http://www.sealworks.com" />
+        <meta name="copyright" content="" />
+        <meta name="date" content="" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/static_media/css/reset.css">
+    <link rel="stylesheet" href="/static_media/css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="/static_media/js/jquery.easyListSplitter.js" type="text/javascript" ></script>
+    <script type="text/javascript" src="/static_media/js/applesearch.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/static_media/css/default.css" id="default"  />
+    <link rel="stylesheet" type="text/css" href="/static_media/css/search.css" id="dummy_css"  />
+
+    <script type="text/javascript" src="/static_media/js/jquery.collapsible.min.js"></script>
+   
+	<script type="text/javascript" src="/static_media/js/highlight.pack.js"></script>
+    
+    <script type="text/javascript">
+	$(document).ready(function() {
+
+		//syntax highlighter
+		hljs.tabReplace = '    ';
+		hljs.initHighlightingOnLoad();
+	
+		//collapsible management
+		$('.collapsible').collapsible({
+			defaultOpen: 'section1',
+			cookieName: 'nav'
+		});
+		$('.page_collapsible').collapsible({
+			defaultClose: 'body-section1',
+			cookieName: 'body'
+		});
+	
+		//assign open/close all to functions
+		function openAll() {
+			$('.page_collapsible').collapsible('open');
+		}
+		function closeAll() {
+			$('.page_collapsible').collapsible('close');
+		}
+	
+		//listen for close/open all
+		$('#closeAll').click(function(event) {
+			event.preventDefault();
+			closeAll();
+	
+		});
+		$('#openAll').click(function(event) {
+			event.preventDefault();
+			openAll();
+	
+		});
+
+	});
+	</script>
+	
+
+    <!--[if IE 7]>
+		<link rel="stylesheet" href="/static_media/css/ie7.css">
+	<![endif]-->
+
+<script type="text/javascript">
+$(document).ready(function () {
+var cols = $(".links_ord li").size() / 4;
+$('.links_ord').easyListSplitter({ colNumber: cols });
+});
+ 
+</script>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12795439-3']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['b._setAccount', 'UA-22304647-1']);
+  _gaq.push(['b._trackPageview']);
+  _gaq.push(['b._trackPageLoadTime']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
+
+<!--[if lte IE 6]>
+	<div id="ie-warning">This site does not support IE6. Please consider downloading a newer browser: <a href='http://windows.microsoft.com'>IE9</a>, <a href='http://www.mozilla.com'>Firefox</a>, or <a href='http://www.google.com/chrome/index.html'>Chrome</a>.</div>
+<![endif]-->
+
+
+
+<!-- HEADER -->
+<div id="header">
+    <div id="header_content">
+        <div id="logo">
+            <a href="/welcome/"><img src="/static_media/img/logo.png" alt="" /></a>
+        </div>
+        <div id="logo">
+            <img src="/static_media/img/instructor_corner_title_sm.png" class="" alt="Instructor's Corner" />
+        </div>
+        <div id="menuopt">
+            <ul>
+                <li>
+                	<a href="/welcome/">Home</a>
+                <li>
+                  <a href="/sciencenav/">About the Science</a>
+                </li>
+                <li>
+                  <a href="https://shopstaywell.com" target="_blank">Shop</a>
+                </li>
+                <li>
+                	<a href="/contactnav/">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div id="logged">
+            <ul>
+                <li>Welcome <span style="font-weight:bolder"></span> | </li>
+                <li><form id="accountlink" style="display: inline;" action="https://www.shopstaywell.com/OA_HTML/iStoreSync.jsp" method="post">
+                            <input type="hidden" name="txtRequest" value="">
+                        <input class="myAccount" type="submit" value="My Account"></form> | </li>
+                    <li><a href="/media/help/RedCross_Instructor_help.pdf" target="_blank">Help</a> | </li>
+                    
+                <li>
+                <span class="sbox"><span id="searchvalnul"></span>
+                    <form style="display: inline;" id="searchForm" action="/results/" method="post"><input type='hidden' name='csrfmiddlewaretoken' value='CI4W09GRxXCoDzueMLXDhM3yVI7IMsuy' />
+                    <input type="search" id="SearchString" name="searchString" value="Search..." placeholder="Search..." autosave="applestyle_srch" results="5" onfocus="this.value = '';" onblur="if (this.value == '') this.value = (this.defaultValue ? this.defaultValue : 'Search...');"/>
+                    </form>
+                    </span>
+                    <span class="sbox_r" id="srch_clear"></span> | </li>
+                
+                
+                <li><a href="/logout/">Log Out</a></li>
+            </ul>
+            <img src="/static_media/img/noavatar.png" alt="" />
+        </div>
+    </div>
+</div>
+
+<div id="Search_Suggestions" style="display:none;">
+   <div class="search-suggestions">
+   
+        <div id="search-title-top">
+        <strong>Search Suggestions</strong>&nbsp; | &nbsp;<span class="notes"><a onclick=" $('#searchForm').submit(); return false;">View All &#187;</a></span>
+    </div>
+    <ul id="search_results">
+
+    </ul>
+    
+    
+    <div id="search-title" style="text-align: right;">
+        <a href="javascript:$('#searchForm').submit();">&nbsp;</a>
+    </div>
+    
+    
+</div>
+</div> 
+
+    
+
+<div id="header_menu">
+    <div id="two_lines">
+        <div id="secondary_bar">
+            <div id="secondary_menu">
+
+            <ul>
+            <!--we can put dashboard tab here -->
+            <li id="first_bkg">	
+	            <a href="/welcome/" class="secondary_text welcome">DASHBOARD</a>
+	        </li>
+	        
+            
+            
+	    
+            
+	    
+                <li id="first_bkg"><a href="/n/first-aidcpraed/" class="secondary_text first-aidcpraed" id="first" >FIRST AID &amp; CPR/AED</a>
+                
+                    <div id="sub_menu_first">
+                        <ul style="margin-left: 30px;">
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/first-aidcpraed/first-aid-cpraed/">First Aid/CPR/AED </a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/first-aidcpraed/cpraed-professional-rescuers-and-health-care-provi/">CPR/AED for Professional Rescuers and Health Care Providers  </a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/first-aidcpraed/emergency-medical-response/">Emergency Medical Response</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/first-aidcpraed/bloodborne-pathogens-training/">Bloodborne Pathogens Training</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/first-aidcpraed/anaphylaxis/">Anaphylaxis and Epinephrine Auto-Injector</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/first-aidcpraed/administering-emergency-oxygen/">Administering Emergency Oxygen</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/first-aidcpraed/wilderness-and-remote-first-aid/">Wilderness and Remote First Aid </a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/first-aidcpraed/first-aid-responding-emergencies/">Responding to Emergencies: Comprehensive First Aid/CPR/AED</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/first-aidcpraed/first-aid-youth-first-aid/">First Aid - Youth   </a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/first-aidcpraed/hands-only-cpr/">Hands-Only Citizen CPR</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/first-aidcpraed/pet-first-aid/">Pet First Aid </a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/first-aidcpraed/schoolpartner/">School Partnership Program</a>
+                            </li>
+                        
+                        </ul>
+                        <div id="bar_g">&nbsp;</div>
+                    </div>
+                </li>
+    	    
+            
+	    
+                <li id="first_bkg"><a href="/n/aquatics/" class="secondary_text aquatics" id="first" >AQUATICS</a>
+                
+                    <div id="sub_menu_first">
+                        <ul style="margin-left: 30px;">
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/aquatics/learn-to-swim/">Learn-to-Swim</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/aquatics/lifeguarding/">Lifeguarding</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/aquatics/safety-training-swim-coaches/">Safety Training for Swim Coaches </a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/aquatics/water-safety-presentations/">Water Safety  </a>
+                            </li>
+                        
+                        </ul>
+                        <div id="bar_g">&nbsp;</div>
+                    </div>
+                </li>
+    	    
+            
+	    
+                <li id="first_bkg"><a href="/n/caregiving/" class="secondary_text caregiving" id="first" >CAREGIVING</a>
+                
+                    <div id="sub_menu_first">
+                        <ul style="margin-left: 30px;">
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/caregiving/babysitters-training/">Babysitter&#39;s Training </a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/caregiving/nurse-assistant-training/">Nurse Assistant Training </a>
+                            </li>
+                        
+                        </ul>
+                        <div id="bar_g">&nbsp;</div>
+                    </div>
+                </li>
+    	    
+            
+	    
+                <li id="first_bkg"><a href="/n/preparedness/" class="secondary_text preparedness" id="first" >PREPAREDNESS</a>
+                
+                    <div id="sub_menu_first">
+                        <ul style="margin-left: 30px;">
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/preparedness/be-red-cross-ready-3-preparedness-actions/">Be Red Cross Ready </a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/preparedness/first-aid-and-preparedness/">First Aid and Preparedness </a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/preparedness/masters-disaster/">Masters of Disasters</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/preparedness/pandemic-flu-preparedness/">Pandemic Flu Preparedness - Community</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/preparedness/preparing-small-business-workplaces-pandemic-flu/">Pandemic Flu Preparedness - Small Business</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/preparedness/preparedness-education/">Preparedness Education</a>
+                            </li>
+                        
+                        </ul>
+                        <div id="bar_g">&nbsp;</div>
+                    </div>
+                </li>
+    	    
+            
+	    
+                <li id="first_bkg"><a href="/n/instructor-tools/" class="secondary_text instructor-tools" id="first" >INSTRUCTOR TOOLS</a>
+                
+                    <div id="sub_menu_first">
+                        <ul style="margin-left: 30px;">
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/instructor-tools/instructor-news/">Instructor News</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/instructor-tools/administrative-tools/">Administrative Tools</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/instructor-tools/ap-and-ltp-resources/">AP and LTP Resources</a>
+                            </li>
+                        
+                            <li class="sub_menu_list">
+                            	<a href="/n/instructor-tools/instructor-development/">Instructor Development </a>
+                            </li>
+                        
+                        </ul>
+                        <div id="bar_g">&nbsp;</div>
+                    </div>
+                </li>
+    	    
+            
+            <!--we can put news tab here -->
+             <li id="first_bkg">	
+	            <a href="/news/recent/" class="secondary_text selected">NEWS</a>
+	        </li>
+            
+            <!--we can put forum tab here -->
+            
+             <!--<li id="first_bkg">	
+	            <a href="/forum/" class="secondary_text">FORUM</a>
+            </li>--> 
+           
+	        </ul>
+        </div>
+      </div>
+    </div>
+     </div>
+
+<!-- END HEADER -->
+<div id="main">
+        
+
+
+<div id="main">
+	<div id="two_lines">
+    	<div id="main_body">
+		
+		 <h1 class="welcome">&nbsp;</h1>
+		
+		
+			<div id="f_menu" style="margin-top:20px;">
+                <ul>
+                    <li>
+                    <a href="/news/recent/">Recent</a>
+                    </li>
+                    
+                    
+
+                    
+                    
+
+                    
+                    <li>
+                    <a href="/news/nav/first-aidcpraed/" class="selected">FIRST AID &amp; CPR/AED</a>
+                    </li>
+                    
+                    
+
+                    
+                    <li>
+                    <a href="/news/nav/aquatics/" class="">AQUATICS</a>
+                    </li>
+                    
+                    
+
+                    
+                    <li>
+                    <a href="/news/nav/caregiving/" class="">CAREGIVING</a>
+                    </li>
+                    
+                    
+
+                    
+                    <li>
+                    <a href="/news/nav/preparedness/" class="">PREPAREDNESS</a>
+                    </li>
+                    
+                    
+
+                    
+                    <li>
+                    <a href="/news/nav/instructor-tools/" class="">INSTRUCTOR TOOLS</a>
+                    </li>
+                    
+                    
+                     <li>
+                     <a href="/news/all/"  class=""> All</a>
+                    </li>
+                </ul>
+            </div>
+            
+       
+            
+            
+            <div id="selected">
+            	<div id="top_selected_large"></div>
+            <div id="middle_selected_large">
+            <div id="same_width">
+        	<div id="selected_content">
+        	
+            
+                <h1>Common Questions Instructors Ask the Training Support Center (TSC)</h1>
+                
+                <div id="changes">
+	               	<h2>Course Records:</h2>
+<p><strong>Q. What do I do if my organization doesn't show in the dropdown?</strong><br />
+	<em>A. If an organization would like have an instructor teach under their Authorized Provider agreement, the contact for the agreement can send an email requesting the individual be added to their agreement to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a>.  Please make sure the email contains the organization name and address, instructor who needs to be added, contact name, phone number and email address. Once this is processed and the organization is added to the instructor's profile (people record), the instructor can begin to submit course records online in the Learning Center.</em>
+</p>
+<p><strong>Q. The individual who taught for our organization is no longer with us.  Do I need to have them removed from our Authorized Provider Agreement?</strong><br />
+	<em>A. As long as an organization is listed on an instructor's profile (people record), they are able to submit course records under the organization's agreement. In order to avoid having classes charged to your organization that have not been authorized, the contact on the Authorized Provider Agreement should send an email requesting the individual be removed from their agreement to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a>.</em>
+</p>
+<p><strong>Q. Why was my course record rejected?</strong><br />
+	<em>A. When a course record has been rejected, there should be a reason noted in the Comment section of the course record.  If you do not see a comment or if you have questions about the reason for the rejection, please contact the Training Support Center at 1-800-Red-Cross, press the extension for Health and Safety Training. You can also contact us by email at <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a>.  If you receive an email from the Training Support Center, please reference the case number provided in the email so we may better assist you.</em>
+</p>
+<p><strong>Q. How do I add an instructor to my course record or online course record?</strong><br />
+	<em>A.  Once a course record has been submitted, an additional instructor can be added by sending an email to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a>. The email should include the course record number, the request to add the instructor, the instructor's name as well as the Learning Center username (if known).  The request to add the instructor should come from the original instructor listed on the course record.</em>
+</p>
+<p><strong>Q. What are the AP fees?</strong><br />
+	<em>A.  AP fees or Authorized Provider fees are the per person fee that is paid when submitting a course record for a class by an organization that has an Authorized Provider Agreement with the American Red Cross.  The fees for courses your organization will be listed in the completed Authorized Provider Agreement.</em>
+</p>
+<p><strong>Q. How do I look up the AP Fee for my organization?</strong><br />
+	<em>A. If the organization has a signed Authorized Provider Agreement with the American Red Cross, the fees for the programs the organization will deliver are contained within the Authorized Provider Agreement. The organization can also contact its account representative at the American Red Cross.  If the organization does not know the contact information for its account representative, it can contact the Training Support Center at 1-800-Red-Cross, choosing the option for Health and Safety Training, or send an email to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a> requesting the information.  The Training Support Center will forward your inquiry to your account representative and you will receive a call back with the information you requested.</em>
+</p>
+<p><strong>Q. Can I consolidate the Learn-to-Swim and WHALE Tales courses into fewer Course Records?</strong><br />
+	<em>A. Absolutely! It is recommended that Learn-to-Swim and WHALE Tales teaching activity be reported on a monthly basis. Each level must be submitted separately, but all sessions for a single level within that month can be reported on one Course Record. All Water Safety Instructors who taught the sessions should be listed on the consolidated Course Record for each level. Only the course codes for courses with a single level can be submitted in this manner. The combined course codes, HSSAQU214 - 217, cannot be used.</em>
+</p>
+<p><strong>Q. Can I report past activity using the new method for submitting Course Records?</strong><br />
+	<em>A. Absolutely! You are strongly encouraged to "catch up" any past Learn-to-Swim and WHALE Tales teaching activity using the non-fee portal for courses for submitting Course Records.</em>
+</p>
+<h2>&nbsp;<br />Entering Non-Fee Courses</h2>
+<p><strong>Q. When entering a course without a fee in the new portal, why doesn't my organization/facility appear in the Organization drop-down list?</strong><br />
+	<em>A. To report teaching activity, you must be marked as an Instructor or as a Non-Instructor Resource for that Organization. If the Organization does not appear in the drop down list, it is because you are not yet added as a "Resource" with the Organization in the Learning Center. To be added, make the request through your Organization's contact who can submit a request by email to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a>. Please make sure the email contains the organization name and address, instructor who needs to be added, contact name, phone number and email address. Once this is processed and the organization is added to the instructor's profile (people record), the instructor can begin to submit course records online in the Learning Center.</em>
+</p>
+<p><strong>Q. One or more of my instructors cannot be found in the Instructors drop-down list. How can I get them added?</strong><br />
+	<em>A. If there is no match found for an instructor's name, that instructor is not associated with the organization. For aquatics courses, you can add or remove Water Safety Instructors to your organization record by completing the <a href="http://www.instructorscorner.org/files/1739" target="_blank">Water Safety Instructor Roster Update Form</a>. When completed, email the form to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a>.</em>
+</p>
+<p><strong>Q. If I am having some trouble submitting my Course Records in the new portal, what can I do?</strong><br />
+	<em>A. The web browsers, Chrome and Firefox, perform better than Internet Explorer for this system. If you are using Internet Explorer and experiencing difficulty, it is recommended that you use either Chrome or Firefox to submit your Course Records.  Internet Explorer is preferred to view reports on SABA report viewer.</em>
+</p>
+<h2>&nbsp;<br />Registrations:</h2>
+<p><strong>Q. How do I request a blended learning Offering for my organization?</strong><br />
+	<em>A. The Authorized Provider Blended Learning Request Form is available on Instructor's Corner (First Aid/CPR/AED>Blended Learning>Forms and Fact Sheets). Once the entire form has been completed, it can be emailed to  <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a>.  You should have received an auto-notification that the request has been received. This auto-notification will include a case number for future reference. Within 48 hours, you should receive an email confirmation that the Blended Learning offering has been created.  The email will also include a deep link that can be used by students for self enrollment in the offering. If you do not receive an email after 48 hours of submitting the Blended Learning Request Form, send an email to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a>.  Please include the case number you were provided in the auto-notification.  We ask that you do not resubmit the Blended Learning Request Form unless requested by the Training Support Center.</em>
+</p>
+
+<p><strong>Q. How do I register for the instructor recertification assessment?</strong><br />
+	<em>A. To enroll in a recertification assessment when a certification is due to expire in 90 days or less:</em></p>
+<ol class="flatpage">
+	<li><p><em>Log into the Learning Center</em></p></li>
+	<li><p><em>Select "Home" in "Go To" drop down box</em></p></li>
+	<li><p><em>Click on the "My Learning" tab</em></p></li>
+	<li><p><em>Click on "My Certifications"</em></p></li>
+	<li><p><em>Click on the title of the certification requiring update</em></p></li>
+	<li><p><em>Scroll to the bottom of the page under initial certification box,  hover over available courses and certifications</em></p></li>
+	<li><p><em>Select course or certification requiring update (note "Update" will be part of title)</em></p></li>
+	<li><p><em>Click "Register for Course"</em></p></li>
+	<li><p><em>Click "Register" located under actions </em></p></li>
+	<li><p><em>Click "Place Order"</em></p></li>
+</ol>
+<div class="clearer">&nbsp;</div>
+
+<p><strong>Q. How can I get a coupon code for my students?</strong><br />
+	<em>A. Please send an email to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a>.  Include the name of the organization and the reason you are requesting a coupon. The Training Support Center will forward your request to the proper team member who can assist in your request and you will receive a response from that team member.</em>
+</p>
+
+<h2>&nbsp;<br />Passwords:</h2>
+<p><strong>Q. Why didn't I get an email after resetting my password?</strong><br />
+	<em>A. If you do not get an email when you have clicked on Forgot Your Password link on the log in page of the Learning Center, you may not have a valid email address on your profile. You can call the Training Support Center to update your email address and reset your password at 1-800-Red-Cross; choose the option for Health and Safety Training.</em>
+</p>
+
+<p><strong>Q. Does my username and password for Learning Center work on Instructor's Corner?</strong><br />
+	<em>A. Instructor's Corner and the Learning Center are two separate systems, each with their own usernames and passwords.</em>
+</p>
+
+<p>Q: How do I reset my password for Instructor's Corner?</strong><br />
+	<em>A. You can click on the link under Instructor Login titled "Forgot Password?" You will be asked to enter your Instructor's Corner User Name or email address. Then click on "Email my Password".  You will then receive an email with a new password.</em>
+</p>
+
+<h2>&nbsp;<br />Attending a Class:</h2>
+<p><strong>Q. My certificate is about to expire and there aren't any review classes in my area, what do I do?</strong><br />
+	<em> A. While review classes are an option for a learner who has a certificate that is close to expiring, the reviews are offered based on demand in that specific area.  When searching for a class on RedCross.org, and there is not a review class available in your near proximity, you can increase the search radius on the left side of the screen by moving the arrow located below the map.  You are also encouraged to participate in a full Instructor Led offering, a Blended Learning offering or a challenge.</em></p>
+	<p><em> With a Blended Learning Offering, the content that is normally gone over in a classroom is available online.  A student completes this online training and reports to an in-person skill session where they perform the skills for that class.</em></p>
+	<p><em> In a challenge, there is no review of the course materials; students are encouraged to review on their own prior to the test. On the scheduled day, the students complete a written and skills test to renew their certificate.  Please note, some classes like Lifeguarding do not offer a Challenge option.</em>
+</p>
+
+<h2>&nbsp;<br />Blended Learning</h2>
+<p><strong>Q. What is a Blended Learning offering?</strong><br />
+	<em>A. With a Blended Learning offering, the content that is normally gone over in a classroom is available online.  A student completes this online training and reports to an in person skill-session where they perform the skills for that class.</em>
+</p>
+
+<p><strong>Q. What do I do when I get the security warning?</strong><br />
+	<em> A. When launching the online portion you may receive a security warning asking if you want to only display secure content. With newer versions of web browsers the wording may be different. Please read carefully and select the option that will display all content.</em>
+</p>
+
+<h2>&nbsp;<br />Payments:</h2>
+<p><strong>Q. Can I bill my records to a purchase order?</strong><br />
+	<em>A. Orders that are $500 per class may be eligible for invoicing.  To discuss payment options for your organization, contact your account representative.  If you do not know the contact information for your account representative, you can contact the Training Support Center at 1-800-Red-Cross, choosing the option for Health and Safety Training.  An email can also be sent to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a> requesting the information.  The Training Support Center will forward your inquiry to your account representative and you will receive a call back to discuss payment options.</em>
+</p>
+
+<p><strong>Q. How do I pay with a Red Cross issued purchase order for a course record?</strong><br />
+	<em> Only a Red Cross issued purchase order number can be used to pay your fees.   If you have a current Red Cross purchase order on record:</em></p>
+	<ol class="flatpage">
+		<li><p><em>For a course record submitted online in the Learning Center, choose the purchase order when you reach the payment screen.</em></p></li>
+		<li><p><em>For an emailed copy of a course record, include the purchase order number in the comment section on the first page of the course record and also within the body of the email.</em></p></li>
+	</ol>
+	<div class="clearer">&nbsp;</div>
+
+	<p><em>If you do not already have a Red Cross issued purchase order or the Red Cross issued purchase order has expired, contact your account representative to discuss payment options.  If the organization does not know the contact information for its account representative, it can contact the Training Support Center at 1-800-Red-Cross, choosing the option for Health and Safety Training.  An email can also be sent to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a> requesting the information.  The Training Support Center will forward your inquiry to your account representative and you will receive a call back to discuss the payment options available to you.</em></p>
+	<p><em>Some companies use purchase orders for tracking purposes and for authorization to purchase.   While this company-issued purchase order can be stored in the Learning System and will be listed on the invoice if the customer is approved for invoicing, it does not provide authorization for the customer to be invoiced by Red Cross.</em>
+</p>
+<p><strong>Q. Payment Policy has not returned my email, what do I do?</strong><br />
+	<em> A. If you have personally emailed your request to Payment Policy, you can send a follow up email to the same email address.</em></p>
+	<p><em>If you requested the Training Support Center send the email on your behalf, you can call 1-800-Red-Cross, choosing the option for Health and Safety Training.  An email can also be sent to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a> requesting a status update.</em></p>
+	<p><em>Please allow 48 business hours for a response on your initial request.</em>
+</p>
+<p><strong>Q. How can I start the credit application process?</strong><br />
+	<em>A. To discuss payment options for your organization, contact your account representative.  If you do not know the contact information for your account representative, you can contact the Training Support Center at 1-800-Red-Cross, choosing the option for Health and Safety Training.  An email can also be sent to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a> requesting the information.  The Training Support Center will forward your inquiry to your account representative and you will receive a call back to discuss payment options.</em>
+</p>
+<p><strong>Q. My credit card was charged multiple times, what do I do?</strong><br />
+	<em>A. Please contact the Training Support Center at 1-800-Red-Cross, choosing the option for Health and Safety Training.  An email can also be sent to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a>. Once the information has been received, the TSC will research the transactions and provide a full refund where applicable. </em>
+</p>
+<p><strong>Q. How do I pay the 2013 Learn-to-Swim facility fee?</strong><br />
+	<em>A. To start the process to pay the 2013 Learn to Swim facility fee, go to <a href="http://phss.redcross.org/lts-enroll/" target="_blank">redcross.org/LTSEnroll</a> and complete the web form. You will receive additional, detailed instructions via email for submitting payment through the Learning Center once your organization record is completed or updated. Your annual fee is per facility and based on the volume of projected enrollees for the 2013 calendar year. Once payment is submitted, you will receive the 2013 Authorized Provider Promotional Package that includes Learn-to-Swim completion cards (dated with the year 2013), a sample package of Learn-to-Swim Achievement Booklets, a set of educational swim stroke posters and temporary tattoos with water safety messaging for participants. <strong>NOTE:</strong> The Red Cross reserves the right to make substitutions to the AP/LTP promotional package.</em>
+</p>
+<h2>&nbsp;<br />Certificates:</h2>
+<p><strong>Q. How can I get a replacement certificate?</strong><br />
+	<em>A. Replacement certificates can be requested by calling the Training Support Center at 1-800-Red-Cross, choose the option for Health and Safety training.  You can also email a request to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a>.  Please include the following information in your email:</em></p>
+	<ul class="flatpage">
+		<li><p><em>Your name, as you were registered in the class</em></p></li>
+		<li><p><em>Date of the class</em></p></li>
+		<li><p><em>Where you took the class</em></p></li>
+		<li><p><em>Course name</em></p></li>
+	</ul>
+	<div class="clearer">&nbsp;</div>
+<p><strong>Q. How do I print my instructor certificates?</strong><br />
+	<em>A. The American Red Cross has replaced the instructor certificates with a report that will list all of an instructor's certifications, both expired and current with the expiration dates.</em></p>
+	<p><em>To print this report and instructor can</em></p>
+	<ol class="flatpage">
+		<li><p><em>Log into the Learning Center</em></p></li>
+		<li><p><em>Click on the "Reports" tab at the top of the screen</em></p></li>
+		<li><p><em>Click on the "+" sign before Resources to expand the list</em></p></li>
+		<li><p><em>Click on the link titled "American Red Cross &ndash; Learner's Instructor Profile" NOTE: Do not click on the links for "Email or "Subscribe"</em></p></li>
+		<li><p><em>In the Crystal Report window that opens, click on the Printer icon</em></p></li>
+		<li><p><em>In the Print Report window that opens, click on "OK"</em></p></li>
+		<li><p><em>In the File Download window that opens, click on "Open"</em></p></li>
+		<li><p><em>In the Saba Report window that opens, click on the Printer icon</em></p></li>
+		<li><p><em>In the Print window that opens, click on "OK"</em></p></li>
+	</ol>
+	<div class="clearer">&nbsp;</div>
+<h2>&nbsp;<br />Agreements:</h2>
+<p><strong>Q. What is the difference between an Authorized Provider agreement and a Licensed Training Provider agreement?</strong><br />
+	<em>A. An Authorized Provider (AP)  Agreement is between an organization and the American Red Cross where the organization would like to have training conducted for their employees or members by individuals within their organization who are American Red Cross Trained instructors. For more information on becoming an Authorized Provider, call the Training Support Center at 1-800-Red-Cross, choosing the option for Health and Safety Training.  An email can also be sent to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a> requesting information about becoming an Authorized Provider. Please include the name of the organization, full address of the organization, contact name, phone number and email address.  The Training Support Center will forward your inquiry to an account representative who will call back to help you through the process.</em></p>
+	<p><em>A Licensed Training Provider (LTP) is a company or individual that is an independent business, offering training courses to outside companies, organizations or individuals. An LTPs revenue stream is driven by providing American Red Cross instructional programs in accordance with the standards and objectives of the program(s) they teach. An LTP may conduct training courses only in the specified geographic region and may be limited to product lines indicated in the agreement. For more information on becoming a Licensed Training Partner and to apply <a href="http://www.redcross.org/take-a-class/licensed-training-authorized-providers" target="blank">click here</a>.</em>
+</p>
+<p><strong>Q. How do I apply for my Licensed Training Partner agreement?</strong><br />
+	<em>A.  For more information on becoming a Licensed Training Partner and to apply <a href="http://www.redcross.org/take-a-class/licensed-training-authorized-providers" target="_blank">click here</a>.</em>
+</p>
+<h2>&nbsp;<br />Certifications:</h2>
+<p><strong>Q. I am an instructor and would like to train other instructors, how do I get started?</strong><br />
+	<em>A. If you are interested in becoming an instructor trainer with the American Red Cross and already hold a current American Red Cross Instructor certification, you can call the Training Support Center at 1-800-Red-Cross, choosing the option for Health and Safety Training.  An email can also be sent to <a href="mailto:support@redcrosstraining.org">support@redcrosstraining.org</a>. Please include your name, full address, phone, email address and the course/s in which you have expertise. The Training Support Center will forward your request to a training specialist who will contact you about your request.</em>
+</p>
+<p><strong>Q. How do I get proof of my instructor certifications?</strong><br />
+	<em>A. The American Red Cross has a report that includes all of an instructor's certifications, both expired and current with the expiration dates.</em></p>
+	<p><em>To print this report and instructor can:</em></p>
+		<ol class="flatpage">
+			<li><p><em>Log into the Learning Center</em></p></li>
+			<li><p><em>Click on the "Reports" tab at the top of the screen</em></p></li>
+			<li><p><em>Click on the "+" sign before Resources to expand the list</em></p></li>
+			<li><p><em>Click on the link titled " American Red Cross  - Learner's Instructor Profile" NOTE: Do not click on the links for "Email or "Subscribe"</em></p></li>
+			<li><p><em>In the Crystal Report window that opens, click on the Printer icon</em></p></li>
+			<li><p><em>In the Print Report window that opens, click on "OK"</em></p></li>
+			<li><p><em>In the File Download window that opens, click on "Open"</em></p></li>
+			<li><p><em>In the Saba Report window that opens, click on the Printer icon</em></p></li>
+			<li><p><em>In the Print window that opens, click on "OK"</em></p></li>
+		</ol>
+	<div class="clearer">&nbsp;</div>
+<p><strong>Q: How can I keep my instructor certification(s) current?</strong><br />
+	<em>A: Instructors can remain current in their certification by teaching at least one qualifying class in a 2 year period and completing an online recertification assessment for the certification.</em>
+</p>
+<p><strong>Q. Is there a grace period to renew my certification?</strong><br />
+	<em>A. Instructors will begin receiving an email notification 90 days prior to the expiration of their certification. You will need to complete the online recertification before the expiration date of the certification in order to remain certified to teach.</em>
+</p>
+<p><strong>Q. I am an instructor, how do I learn about becoming an employee of American Red Cross?</strong><br />
+	<em>A. To see potential career opportunities with the American Red Cross, please <a href="http://www.redcross.org/about-us/careers" target="_blank">click here</a>.</em>
+</p>
+<p><strong>Q. How can I order training supplies?</strong><br />
+	<em>A. To purchase books and training supplies, you can order by <a href="http://www.redcrossstore.org/?utm_source=RCO&utm_medium=frontpage&utm_campaign=shopbutton" target="_blank">Clicking here</a>.</em></p>
+		<ol type="A" class="flatpage">
+			<li><p><em>Logging into Instructor's Corner</em></p></li>
+			<ol type="a" class="flatpage">
+				<li><p><em>Choose the program you are teaching</em></p></li>
+				<li><p><em>Under Course Materials, click on "Purchase Print Materials"</em></p></li>
+				<li><p><em>Click "Buy Now next to the item(s) you wish to purchase</em></p></li>
+			</ol>
+	<div class="clearer">&nbsp;</div>
+			<li><p><em>Going to <a href="http://www.shopstaywell.com/" target="_blank">www.ShopStayWell.com</a></em></p></li>
+			<li><p><em>Calling the Training Support Center at 1-800-Red-Cross, choose the option for Health and Safety Training</em></p></li>
+		</ol>
+	<div class="clearer">&nbsp;</div>
+	            </div>
+            
+            
+       
+	       		
+       		</div>
+       		</div>
+			</div>
+	    		<div id="bottom_large_content"></div>
+   			</div>
+        
+        
+        
+            
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+        
+</div>
+
+<!-- FOOTER -->
+
+<div id="footer">
+    <div id="footer_content">
+        <div id="quick_links">
+            <img style="margin-left:7px" src="/static_media/img/qlink.png" alt="" /> QUICK LINKS
+        </div>
+        <div id="links">
+            <ul class="links_ord">
+                <li><a href="/welcome/">Home</a></li>
+                 <li><a href="http://shopstaywell.com" target="_blank">Shop</a></li>
+                 <li><a href="/contactnav/">Contact Us</a></li>
+                 <li><a href="/sciencenav/">About the Science</a></li>
+                 
+                 <li><a href="http://www.redcross.org/" target="_blank">RedCross.org</a></li>
+                 <li><a href="http://www.redcross.org/privacy/" target="blank">Privacy Policy</a></li>
+                 <li><a href="/termsnav/">Terms and Conditions</a></li>
+                 <li>&nbsp;</li>
+                 
+            </ul>
+
+            <div id="join_big"><img src="/static_media/img/join_big.png" alt="" width="191" height="71" /></div>
+            <div class="clear">&nbsp;</div>        
+		</div>
+		<div style="border-bottom: #737373 2px solid; margin-left: 16px; width:961px">&nbsp;</div>
+        <div id="rights">All rights reserved. 2014 American National Red Cross.</div>
+
+    </div>
+</div>
+
+
+
+<!-- END FOOTER -->
+
+
+  
+  
+  
+
+  <!--[if lt IE 7 ]>
+    <script src="/site_media/js/dd_belatedpng.js?v=1"></script>
+  <![endif]-->
+
+<!--
+  <script src="/js/profiling/yahoo-profiling.min.js?v=1"></script>
+  <script src="/site_media/js/profiling/config.js?v=1"></script>
+
+  <script>
+   var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']]; 
+   (function(d, t) {
+    var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+    g.async = true; g.src = '//www.google-analytics.com/ga.js'; s.parentNode.insertBefore(g, s);
+   })(document, 'script');
+  </script>
+  
+-->
+
+</body>
+</html>
+</body>
+</html>

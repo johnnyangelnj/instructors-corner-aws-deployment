@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><![endif]-->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Instructor's Corner</title>
+        <meta name="author" content="http://www.sealworks.com" />
+        <meta name="copyright" content="" />
+        <meta name="date" content="" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/static_media/css/reset.css">
+    <link rel="stylesheet" href="/static_media/css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="/static_media/js/jquery.easyListSplitter.js" type="text/javascript" ></script>
+    <script type="text/javascript" src="/static_media/js/applesearch.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/static_media/css/default.css" id="default"  />
+    <link rel="stylesheet" type="text/css" href="/static_media/css/search.css" id="dummy_css"  />
+
+    <script type="text/javascript" src="/static_media/js/jquery.collapsible.min.js"></script>
+   
+	<script type="text/javascript" src="/static_media/js/highlight.pack.js"></script>
+    
+    <script type="text/javascript">
+	$(document).ready(function() {
+
+		//syntax highlighter
+		hljs.tabReplace = '    ';
+		hljs.initHighlightingOnLoad();
+	
+		//collapsible management
+		$('.collapsible').collapsible({
+			defaultOpen: 'section1',
+			cookieName: 'nav'
+		});
+		$('.page_collapsible').collapsible({
+			defaultClose: 'body-section1',
+			cookieName: 'body'
+		});
+	
+		//assign open/close all to functions
+		function openAll() {
+			$('.page_collapsible').collapsible('open');
+		}
+		function closeAll() {
+			$('.page_collapsible').collapsible('close');
+		}
+	
+		//listen for close/open all
+		$('#closeAll').click(function(event) {
+			event.preventDefault();
+			closeAll();
+	
+		});
+		$('#openAll').click(function(event) {
+			event.preventDefault();
+			openAll();
+	
+		});
+
+	});
+	</script>
+	
+
+    <!--[if IE 7]>
+		<link rel="stylesheet" href="/static_media/css/ie7.css">
+	<![endif]-->
+
+<script type="text/javascript">
+$(document).ready(function () {
+var cols = $(".links_ord li").size() / 4;
+$('.links_ord').easyListSplitter({ colNumber: cols });
+});
+ 
+</script>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12795439-3']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['b._setAccount', 'UA-22304647-1']);
+  _gaq.push(['b._trackPageview']);
+  _gaq.push(['b._trackPageLoadTime']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
+
+<!--[if lte IE 6]>
+	<div id="ie-warning">This site does not support IE6. Please consider downloading a newer browser: <a href='http://windows.microsoft.com'>IE9</a>, <a href='http://www.mozilla.com'>Firefox</a>, or <a href='http://www.google.com/chrome/index.html'>Chrome</a>.</div>
+<![endif]-->
+
+
+
+<!-- HEADER -->
+<div id="header">
+    <div id="header_content">
+        <div id="logo">
+            <a href="/"><img src="/media/img/logo.png" alt="" /></a>
+        </div>
+        <div id="logo">
+            <img src="/media/img/instructor_corner_title_sm.png" class="" alt="Instructor's Corner" />
+        </div>
+        <div id="menuopt">
+            <ul>
+                <li>
+                	<a href="/welcome/">Home</a>
+                <li>
+                  <a href="/science/">About the Science</a>
+                </li>
+                <li>
+                  <a href="https://shopstaywell.com" target="_blank">Shop</a>
+                </li>
+                <li>
+                	<a href="/contact/">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 
+<div id="logged">
+            <ul>
+                <li>Welcome <span style="font-weight:bolder"></span> |</li>
+                <li><form id="accountlink" style="display: inline;" action="https://www.shopstaywell.com/OA_HTML/iStoreSync.jsp" method="post">
+                            <input type="hidden" name="txtRequest" value="">
+                        <input class="myAccount" type="submit" value="My Account"></form> |</li>
+                <li><a href="/help/">Help</a> |</li>
+                <li>
+                <span class="sbox"><span id="searchvalnul"></span>
+                    <form style="display: inline;" id="searchForm" action="/results/" method="post"><input type='hidden' name='csrfmiddlewaretoken' value='CI4W09GRxXCoDzueMLXDhM3yVI7IMsuy' />
+                    <input type="search" id="SearchString" name="searchString" value="Search..." placeholder="Search..." autosave="applestyle_srch" results="5" onfocus="this.value = '';" onblur="if (this.value == '') this.value = (this.defaultValue ? this.defaultValue : 'Search...');"/>
+                    </form>
+                    </span>
+                    <span class="sbox_r" id="srch_clear"></span> |
+            </li>
+                
+                
+                <li><a href="/logout/">Log Out</a></li>
+            </ul>
+            <img src="/media/img/noavatar.png" alt="" />
+        </div>
+ -->
+    </div>
+</div>
+
+<div id="Search_Suggestions" style="display:none;">
+   <div class="search-suggestions">
+   
+        <div id="search-title-top">
+        <strong>Search Suggestions</strong>&nbsp; | &nbsp;<span class="notes"><a onclick=" $('#searchForm').submit(); return false;">View All &#187;</a></span>
+    </div>
+    <ul id="search_results">
+
+    </ul>
+    
+    
+    <div id="search-title" style="text-align: right;">
+        <a href="javascript:$('#searchForm').submit();">&nbsp;</a>
+    </div>
+    
+    
+</div>
+</div> 
+
+
+    
+
+<div id="header_menu">
+    <div id="two_lines">
+    	<div id="secondary_bar">
+            <div id="secondary_menu">
+            <ul>
+            
+            
+            </ul>
+        </div>
+      </div>
+    </div>
+ 	</div>
+ 	
+ 	
+ 	
+
+<!-- END HEADER -->
+<div id="main">
+    <p>    <div id="two_lines">
+        <div id="emergency_main">
+            <div id="f_menu">
+                <ul>
+                   
+                        <li>
+                            <a class="selected"">Scientific Advisory Council</a>
+                        </li>
+                         <li>
+                            <a href="/eccu/"">Guidelines and ECCU</a>
+                        </li>
+                    
+                </ul>
+            </div>
+        <div id="selected">
+            	<div id="top_selected_large"></div>
+                <div id="middle_selected_large">
+                <div id="same_width">
+        	<div id="selected_content">
+                <h1>Scientific Advisory Council</h1>
+                <p><strong>Description:</strong> In late 1998, the Red Cross formed an independent panel of nationally recognized health and safety experts known as the Scientific Advisory Council. Drawing on a body of collective expertise from such diverse fields as emergency medicine, occupational health, sports medicine, school health, emergency medical services (EMS) response and disaster mobilization, The Council helps to establish the standard in first aid care. It also advises the Red Cross in areas related to the development and dissemination of audience-appropriate information and training in first aid and safety. </p>
+                <p>
+                <strong><a class="pdf" href="../media/resources/SAC/SAC_brochure.pdf" target="_blank">Scientific Advisory Committee Members</a></strong>
+</p>
+               
+                    <div id="changes">
+                        <h2>Advisories</h2>                                         
+                        <div class="show_changes">
+                            <ul class="document_list">
+                                <li> 
+                                
+ <a class="pdf" href="../media/resources/SAC/Asp%20Admin%20Chest%20Pain%20Lay%20Resps.pdf" target="_blank">Aspirin Administration for Chest Pain by Lay Responders </a>
+ <a class="pdf" href="../media/resources/SAC/Compressiononly%20CPR.pdf" target="_blank">Compression-only CPR </a>
+ <a class="pdf" href="../media/resources/SAC/CPR%20Skill%20Retention.pdf" target="_blank">CPR Skill Retention </a>
+ <a class="pdf" href="../media/resources/SAC/Crit%20Debriefing%20CISD.pdf" target="_blank">Critical Incident Stress Debriefing (CISD) </a>
+ <a class="pdf" href="../media/resources/SAC/DrownAbdominal%20Thrusts.pdf" target="_blank">Drowning and Abdominal Thrusts </a>
+ 
+ <a class="pdf" href="../media/resources/SAC/SAC Advisory Hand Hygiene for FA Providers Approved for Posting  10_1_10.pdf" target="_blank">Hand Hygiene for First Aid Providers </a>
+ <a class="pdf" href="../media/resources/SAC/SAC Advisory Hand Hygiene for General Public Approved for Posting  10_1_10.pdf" target="_blank">Hand Hygiene for General Public </a>
+ <a class="pdf" href="../media/resources/SAC/SAC Advisory Hand Hygiene for Home Healthcare Approved for Posting  10_1_10.pdf" target="_blank">Hand Hygiene for Home Healthcare</a>
+ <a class="pdf" href="../media/resources/SAC/Hyperthermia.pdf" target="_blank">Hyperthermia </a>
+ <a class="pdf" href="../media/resources/SAC/Mask%20Use%20for%20Influenza.pdf" target="_blank">Mask Use for Influenza </a>
+ 
+ <a class="pdf" href="../media/resources/SAC/Mild TBI Concussion SAC Advisory for Posting  1_15_12.pdf" target="_blank">Mild Traumatic Brain Injury</a>
+ 
+ 
+ <a class="pdf" href="../media/resources/SAC/Lightning%20Safety%20for%20Pools.pdf" target="_blank">Lightning Safety for Pools </a>
+ <a class="pdf" href="../media/resources/SAC/Min%20Age%20for%20Swim%20less.pdf" target="_blank">Minimum Age for Swimming Lessons </a>
+ <a class="pdf" href="../media/resources/SAC/MiniTrainBystander%20AED%20Eff.pdf" target="_blank">Minimumally Trained Bystander AED Effectiveness </a>
+ 
+ <a class="pdf" href="../media/resources/SAC/Advisory Glucose for Diabetes Final for Posting  1_7_12.pdf" target="_blank">Oral Glucose for Diabetic Emergencies</a>
+ 
+ <a class="pdf" href="../media/resources/SAC/SAC Advisory Stroke Assessment Tools Final for Posting 03_2012.pdf" target="_blank">Stroke Assessment Tools</a>
+ 
+ <a class="pdf" href="../media/resources/SAC/Topical%20Hemostatic%20Agents.pdf" target="_blank">Topical Hemostatic Agents </a>
+ 
+ <a class="pdf" href="../media/resources/SAC/SAC Advisory Epi for Anaphylaxis Final for Posting 1_29_12.pdf" target="_blank">Use of Epinephrine Auto-Injectors for Anaphylaxis</a>
+ 
+ 
+ <a class="pdf" href="../media/resources/SAC/Vol%20Hyper%20Preceding%20Unde%20Swim.pdf" target="_blank">Voluntary Hyperventilation Preceding Underwater Swimming </a>
+ 
+                               </li> 
+                            </ul>
+                        </div>
+                        </div>
+
+                   
+                    <div id="changes">
+                        <h2>Answers</h2>                                         
+                        <div class="show_changes">
+                            <ul class="document_list">
+                                <li> 
+                                
+<a class="pdf" href="../media/resources/SAC/Reviews/SAC_Answers_A-B-C_vs _C-A-B.pdf" target="_blank">“Airway – Breathing – Circulation” vs. “Circulation – Airway – Breathing”</a>
+
+
+<a class="pdf" href="../media/resources/SAC/AED%20Use%20on%20Infants.pdf" target="_blank">AED Use on Infants </a>
+<a class="pdf" href="../media/resources/SAC/Adv%20Direct%20Red%20Cross%20Train.pdf" target="_blank">Advanced Directives in Red Cross Training </a>
+<a class="pdf" href="../media/resources/SAC/SAC Answers Hand Hygiene for First Aid Kits 10_1_10.pdf" target="_blank">Hand Hygiene Product for First Aid Kits</a>
+<a class="pdf" href="../media/resources/SAC/Place%20of%20AEDs%20June%2010.pdf" target="_blank">Placement of AEDs (June 2010) </a>
+<a class="pdf" href="../media/resources/SAC/Red%20Cross%20Stance%20on%20Cough%20CPR.pdf" target="_blank">Red Cross Stance on Cough CPR </a>
+<a class="pdf" href="../media/resources/SAC/RedCross%20Pos%20Comp%20CPR.pdf" target="_blank">Red Cross Position on Compression-Only CPR </a>
+<a class="pdf" href="../media/resources/SAC/CompOnly%20CPR%20BackInfo.pdf" target="_blank">Compression-Only CPR Background Information </a>
+<a class="pdf" href="../media/resources/SAC/Massive%20Bleeding%20Definition.pdf" target="_blank">Massive Bleeding Definition </a>
+<a class="pdf" href="../media/resources/SAC/Prep%20Ext%20BreathHold%20Inquires%20Oprah.pdf" target="_blank">Prepare for “Extended Breath-Holding” Inquires Due to Upcoming “Oprah” Episode </a>
+<a class="pdf" href="../media/resources/SAC/Nutrition%20Needs%20Disaster%20Victims.pdf" target="_blank">Nutritional Needs for Disaster Victims </a>
+<a class="pdf" href="../media/resources/SAC/SwimGoggles.pdf" target="_blank">Use of Swim Goggles While Performing Lifeguarding Skills</a>
+<a class="pdf" href="../media/resources/SAC/Vol%20Hyper%20Prece%20Under%20Swim.pdf" target="_blank">Voluntary Hyperventilation Preceding Underwater Swimming </a>
+<a class="pdf" href="../media/resources/SAC/Do%20Not%20Resuscitate%20Order.pdf" target="_blank">Do Not Resuscitate Order </a>
+<a class="pdf" href="../media/resources/SAC/SAC%20Answers%20Water%20Competency.pdf" target="_blank">Water Competency </a>
+
+<a class="pdf" href="../media/resources/SAC/Instructor Information Water Temperature for Aquatic Information Final for Posting 3_30_12.pdf" target="_blank">Water Temperature for Aquatic Instruction</a>
+
+
+                               </li> 
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="changes">
+                        <h2>Latest Science</h2>                                         
+                        <div class="show_changes">
+                            <ul class="document_list">
+                                <li> 
+<a class="mp4" href="../media/resources/SAC/Answers/How%20does%20the%20Red%20Cross%20develop%20guidelines%20and%20programs(MP4).mp4" target="_blank"> How does the Red Cross develop guidelines and programs? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/How%20does%20the%20Red%20Cross%20develop%20guidelines%20and%20programs(WMV).wmv" target="_blank">How does the Red Cross develop guidelines and programs? (WMV) </a>
+<a class="mp4" href="../media/resources/SAC/Answers/Why%20was%20the%20victim's%20age%20delineation%20changed%20for%20CPR(MP4).mp4" target="_blank">Why was the victim's age delineation changed for CPR? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/Why%20was%20the%20victim's%20age%20delineation%20changed%20for%20CPR(WMV).wmv" target="_blank">Why was the victim's age delineation changed for CPR? (WMV) </a>
+<a class="mp4" href="../media/resources/SAC/Answers/Should%20you%20give%20compression-only%20CPR(MP4).mp4" target="_blank">Should you give compression-only CPR? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/Should%20you%20give%20compression-only%20CPR(WMV).wmv" target="_blank">Should you give compression-only CPR? (WMV) </a>
+<a class="mp4" href="../media/resources/SAC/Answers/Why%20are%20AED%20skills%20required%20for%20professional%20rescuers(MP4).mp4" target="_blank">Why are AED skills required for professional rescuers? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/Why%20are%20AED%20skills%20required%20for%20professional%20rescuers(WMV).wmv" target="_blank">Why are AED skills required for professional rescuers? (WMV) </a>
+<a class="mp4" href="../media/resources/SAC/Answers/Why%20are%20oxygen%20skills%20optional%20for%20professional%20rescuers(MP4).mp4" target="_blank">Why are oxygen skills optional for professional rescuers? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/Why%20are%20oxygen%20skills%20optional%20for%20professional%20rescuers(WMV).wmv" target="_blank">Why are oxygen skills optional for professional rescuers? (WMV)</a>
+<a class="mp4" href="../media/resources/SAC/Answers/Why%20were%20airway%20adjuncts%20and%20suctioning%20removed%20from%20the%20oxygen%20course(MP4).mp4" target="_blank">Why were airway adjuncts and suctioning removed from the oxygen course? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/Why%20were%20airway%20adjuncts%20and%20suctioning%20removed%20from%20the%20oxygen%20course(WMV).wmv" target="_blank">Why were airway adjuncts and suctioning removed from the oxygen course? (WMV) </a>
+                               </li> 
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="changes">
+                        <h2>Breathing and Cardiac Emergency Care</h2>                                         
+                        <div class="show_changes">
+                            <ul class="document_list">
+                                <li> 
+<a class="mp4" href="../media/resources/SAC/Answers/How%20do%20you%20care%20for%20a%20conscious%20choking%20victim(MP4).mp4" target="_blank">How do you care for a conscious choking victim? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/How%20do%20you%20care%20for%20a%20conscious%20choking%20victim(WMV).wmv" target="_blank">How do you care for a conscious choking victim? (WMV)</a> 
+<a class="mp4" href="../media/resources/SAC/Answers/Why%20are%20two%20rescuers%20required%20to%20perform%20BVM%20resuscitation(MP4).mp4" target="_blank">Why are two rescuers required to perform BVM resuscitation? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/Why%20are%20two%20rescuers%20required%20to%20perform%20BVM%20resuscitation(WMV).wmv" target="_blank">Why are two rescuers required to perform BVM resuscitation? (WMV) </a>
+<a class="mp4" href="../media/resources/SAC/Answers/Can%20chest%20compressions%20be%20harmful(MP4).mp4" target="_blank">Can chest compressions be harmful? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/Can%20chest%20compressions%20be%20harmful(WMV).wmv" target="_blank">Can chest compressions be harmful? (WMV) </a>
+<a class="mp4" href="../media/resources/SAC/Answers/Should%20you%20give%20aspirin%20to%20a%20heart%20attack%20victim(MP4).mp4" target="_blank">Should you give aspirin to a heart attack victim? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/Should%20you%20give%20aspirin%20to%20a%20heart%20attack%20victim(WMV).wmv" target="_blank">Should you give aspirin to a heart attack victim? (WMV) </a>
+<a class="mp4" href="../media/resources/SAC/Answers/How%20do%20you%20care%20for%20an%20unconscious%20choking%20victim(MP4).mp4" target="_blank">How do you care for an unconscious choking victim? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/How%20do%20you%20care%20for%20an%20unconscious%20choking%20victim(WMV).wmv" target="_blank">How do you care for an unconscious choking victim? (WMV) </a>
+                               </li> 
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="changes">
+                        <h2>First Aid</h2>                                         
+                        <div class="show_changes">
+                            <ul class="document_list">
+                                <li> 
+<a class="mp4" href="../media/resources/SAC/Answers/How%20do%20you%20care%20for%20severe%20bleeding(MP4).mp4" target="_blank">How do you care for severe bleeding? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/How%20do%20you%20care%20for%20severe%20bleeding(WMV).wmv" target="_blank">How do you care for severe bleeding? (WMV) </a>
+<a class="mp4" href="../media/resources/SAC/Answers/How%20do%20you%20care%20for%20a%20burn(MP4).mp4" target="_blank">How do you care for a burn? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/How%20do%20you%20care%20for%20a%20burn(WMV).wmv" target="_blank">How do you care for a burn? (WMV) </a>
+<a class="mp4" href="../media/resources/SAC/Answers/How%20do%20you%20care%20for%20an%20eye%20injury(MP4).mp4" target="_blank">How do you care for an eye injury? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/How%20do%20you%20care%20for%20an%20eye%20injury(WMV).wmv" target="_blank">How do you care for an eye injury? (WMV) </a>
+<a class="mp4" href="../media/resources/SAC/Answers/How%20do%20you%20backboard%20a%20standing%20spinal-injury%20victim(MP4).mp4" target="_blank">How do you backboard a standing spinal-injury victim? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/How%20do%20you%20backboard%20a%20standing%20spinal-injury%20victim(WMV).wmv" target="_blank">How do you backboard a standing spinal-injury victim? (WMV) </a>
+                               </li> 
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="changes">
+                        <h2>Lifeguarding and Water Safety</h2>                                         
+                        <div class="show_changes">
+                            <ul class="document_list">
+                                <li> 
+<a class="mp4" href="../media/resources/SAC/Answers/What%20is%20purpose%20the%20Lifeguarding%20course%20pretest(MP4).mp4" target="_blank">What is purpose the Lifeguarding course pretest? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/What%20is%20purpose%20the%20Lifeguarding%20course%20pretest(WMV).wmv" target="_blank">What is purpose the Lifeguarding course pretest? (WMV) </a>
+<a class="mp4" href="../media/resources/SAC/Answers/Why%20did%20Red%20Cross%20create%20the%20Shallow%20Water%20Attendant%20course(MP4).mp4" target="_blank">Why did Red Cross create the Shallow Water Attendant course? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/Why%20did%20Red%20Cross%20create%20the%20Shallow%20Water%20Attendant%20course(WMV).wmv" target="_blank">Why did Red Cross create the Shallow Water Attendant course? (WMV) </a>
+<a class="mp4" href="../media/resources/SAC/Answers/Why%20shouldn’t%20cervical%20collar%20be%20used%20in%20the%20water(MP4).mp4" target="_blank">Why shouldn’t cervical collar be used in the water? (MP4) </a>
+<a class="wmv" href="../media/resources/SAC/Answers/Why%20shouldn’t%20cervical%20collar%20be%20used%20in%20the%20water(WMV).wmv" target="_blank">Why shouldn’t cervical collar be used in the water? (WMV) </a>
+                               </li> 
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="changes">
+                        <h2>Scientific Reviews</h2>                                         
+                        <div class="show_changes">
+                            <ul class="document_list">
+                                <li> 
+ 
+<a class="pdf" href="../media/resources/SAC/Reviews/Critical%20%20Stress%20Debrief%20CISD.pdf" target="_blank">Critical Incident Stress Debriefing (CISD) </a>
+<a class="pdf" href="../media/resources/SAC/Reviews/CPR%20Skill%20Retention.pdf" target="_blank">CPR Skill Retention </a>
+<a class="pdf" href="../media/resources/SAC/Reviews/BVM%20vs%20Mask.pdf" target="_blank">BVM vs Mask </a>
+<a class="pdf" href="../media/resources/SAC/Reviews/Compression%20Only%20CPR%20June%20.pdf" target="_blank">Compression Only CPR (June 2010) </a>
+<a class="pdf" href="../media/resources/SAC/Reviews/Drowning%20and%20Abdominal%20Thrusts.pdf" target="_blank">Drowning and Abdominal Thrusts </a>
+<a class="pdf" href="../media/resources/SAC/Reviews/SAC Scientific Review - Hand Hygeine Approved for Posting 10_1_10.pdf" target="_blank">Hand Hygiene </a>
+<a class="pdf" href="../media/resources/SAC/Reviews/Hyperthermia.pdf" target="_blank">Hyperthermia </a>
+<a class="pdf" href="../media/resources/SAC/Reviews/Infant%20AED.pdf" target="_blank">Infant AED </a>
+<a class="pdf" href="../media/resources/SAC/Reviews/Mask%20Use%20by%20the%20Public%20for%20Infl.pdf" target="_blank">Mask Use by the Public for Influenza </a>
+
+<a class="pdf" href="../media/resources/SAC/Mild TBI Concussion Scientific Review Final for Posting 1_15_2012.pdf" target="_blank">Mild Traumatic Brain Injury</a>
+
+
+<a class="pdf" href="../media/resources/SAC/Reviews/Minimum%20Age%20for%20Swimming%20Lessons.pdf" target="_blank">Minimum Age for Swimming Lessons </a>
+<a class="pdf" href="../media/resources/SAC/Reviews/Mini%20TrainBy%20AED%20Effec.pdf" target="_blank">Minimumally Trained Bystander AED Effectiveness </a>
+<a class="pdf" href="../media/resources/SAC/Reviews/Impedence%20Threshold%20Device%20June.pdf" target="_blank">Impedence Threshold Device (June) </a>
+
+<a class="pdf" href="../media/resources/SAC/Scientific Review Glucose for Diabetes Final for Posting  1_7_12.pdf" target="_blank">Oral Glucose for Diabetic Emergencies</a>
+
+<a class="pdf" href="../media/resources/SAC/Safe%20Aquatic%20Outings%20SAC%20Scientific%20Review%20Final%20Approved%20for%20Posting.pdf" target="_blank">Safe Aquatic Outings</a>
+
+<a class="pdf" href="../media/resources/SAC/SAC Scientific Review Stroke Assessment Tool Final for Posting 3_5_12.pdf" target="_blank">Stroke Assessment Tools</a>
+
+<a class="pdf" href="../media/resources/SAC/Reviews/Topical%20Hemostatic%20Agents.pdf" target="_blank">Topical Hemostatic Agents </a>
+
+<a class="pdf" href="../media/resources/SAC/SAC Scientific Review Epinephrine Auto-Injector Final for Posting 1_29_12.pdf" target="_blank">Use of Epinephrine Auto-Injectors for Anaphylaxis</a>
+
+
+<a class="pdf" href="../media/resources/SAC/Reviews/Vol%20Hypen%20Preceding%20Swimming.pdf" target="_blank">Voluntary Hyperventilation Preceding Underwater Swimming </a>
+
+<a class="pdf" href="../media/resources/SAC/Scientific Review Water Temperature Final for Posting 3_30_12.pdf" target="_blank">Water Temperature for Aquatics Instruction</a>
+
+                               </li> 
+                            </ul>
+                        </div>
+                    </div>
+
+   
+                 </div>
+            </div>
+        </div>
+        <div id="bottom_large_content"></div>
+        </div>
+
+
+
+		
+        </div>
+    </div>
+    </div>
+</p>
+</div>
+
+<!-- FOOTER -->
+
+<div id="footer">
+	<div id="footer_content">
+    	<div id="quick_links">
+	    	<img style="margin-left:7px" src="/media/img/qlink.png" alt="" /> QUICK LINKS
+		</div>
+        <div id="links">
+        	<ul class="links_ord">
+            	 <li><a href="/welcome/">Home</a></li>
+                 <li><a href="http://shopstaywell.com" target="_blank">Shop</a></li>
+                 <li><a href="/contact/">Contact Us</a></li>
+                 <li><a href="/science/">About the Science</a></li>
+                 
+                 <li><a href="http://www.redcross.org/" target="_blank">RedCross.org</li>
+                 <li><a href="http://www.redcross.org/privacy/" target="blank">Privacy Policy</a></li>
+                 <li><a href="/terms/">Terms and Conditions</a></li>
+                 <li>&nbsp;</li>
+			</ul>
+                        <div id="join_big"><img src="/media/img/join_big.png" alt="" width="191" height="71" /></div>
+            <div class="clear">&nbsp;</div>        
+		</div>
+		<div style="border-bottom: #737373 2px solid; margin-left: 16px; width:961px">&nbsp;</div>
+        <div id="rights">All rights reserved. 2014 American National Red Cross.</div>
+
+    </div>
+</div>
+
+<!-- END FOOTER -->
+
+
+  
+  
+  
+
+  <!--[if lt IE 7 ]>
+    <script src="/site_media/js/dd_belatedpng.js?v=1"></script>
+  <![endif]-->
+
+<!--
+  <script src="/js/profiling/yahoo-profiling.min.js?v=1"></script>
+  <script src="/site_media/js/profiling/config.js?v=1"></script>
+
+  <script>
+   var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']]; 
+   (function(d, t) {
+    var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+    g.async = true; g.src = '//www.google-analytics.com/ga.js'; s.parentNode.insertBefore(g, s);
+   })(document, 'script');
+  </script>
+  
+-->
+
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,22 @@
+AddDefaultCharset UTF-8
+
+# order deny,allow
+# deny from all
+# allow from none
+
+RewriteEngine on
+RewriteBase /
+
+
+# FORCES SSL
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [NE,R=301,L]
+
+
+
+### Redirect Files to AWS S3 Bucket ###
+#RewriteCond %{REQUEST_URI} /files/
+#RewriteRule (.*) http://instructors-corner.s3-website-us-east-1.amazonaws.com%{REQUEST_URI} [R=301,NC,L]
+
+RewriteCond %{REQUEST_URI} /welcome/
+RewriteRule (.*) / [R=301,NC,L]

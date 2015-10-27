@@ -1,0 +1,354 @@
+/* CSS Document */
+
+/*
+ * 	Header Content
+ *  CSS
+ *  IperDesign
+ */
+
+a{
+	text-decoration:none;
+	color:#6D6E71;
+}
+
+p{ 
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:13px;
+	color:#333;
+	margin-bottom:10px; 
+	}
+
+#header{
+	width:100%;
+	background-image:url(/media/img/header-bar.png);
+	background-repeat:repeat-x;
+}
+
+#header_content{
+	width:1000px;
+	height:130px;
+	margin: 0 auto;
+	background-image:url(/media/img/header_bkg.png);
+}
+
+
+.home_title{
+	float:right;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:12px;
+	text-transform:uppercase;
+	color:white;
+	margin-top: 10px;
+	margin-right: 13px;
+}
+	
+#logo{
+	float:left;
+}
+
+#logo img{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+   
+
+
+
+/*
+ * 	Main Content
+ *  CSS
+ *  IperDesign
+ */
+ 
+
+
+#main{
+	width:1000px; 
+	margin: 0 auto;
+	background-image:url(/media/img/bkg_two_lines.png);
+	background-repeat:repeat-y;
+	position:relative;
+} 
+
+/* LEFT SIDE CONTENT */
+
+
+#footer{
+	width:100%;
+	background-image:url(/media/img/footer-bar.png);
+	background-repeat:repeat-x;
+	float:left;
+}
+
+/* SECONDARY */
+
+#header_menu{
+	margin: 0 auto;
+	width:1000px;
+	position:relative;
+}
+
+#two_lines_two{
+	width: 1000px; 
+	background-image: url(/media/img/bkg_two_lines.png);
+	background-repeat: repeat-y;
+	float: left;
+	position:relative; 
+}
+
+
+
+ 
+
+
+#footer_two{
+	width:100%;
+	background-image:url(/media/img/footer-bar.png);
+	background-repeat:repeat-x;
+	float:left;  
+}
+
+
+
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	font-size:16px;
+	margin-bottom:15px;
+	color:#ED1C2E;
+}
+
+
+
+h1{
+	font-size:21px !important;
+	color:#808080;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal !important;
+}
+
+h3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	font-size:16px;
+	color:#ED1C2E;
+	float: left;
+	width: 100%;
+	padding-bottom:4px;
+	margin-bottom:10px;
+	margin-top:22px;
+}
+ 
+     
+
+/*
+ * 	Footer
+ *  CSS
+ *  IperDesign
+ */
+ 
+#footer_content{
+	width:977px;
+	margin: 0 auto;
+}
+
+#quick_links{
+	margin-left:16px;
+	margin-top:20px;
+	font-family: Helvetia,Arial, sans-serif;
+	font-size:14px;
+	padding-bottom:7px;
+	border-bottom: #737373 2px solid;
+}
+
+.links ul, .links ol{
+	width: 180px;
+	float: left;
+	margin: 0 10px 30px 0;
+}
+
+#links{
+	margin-left:32px;
+	margin-top:17px;	
+	width:100%;
+	height:90px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:12px;
+	line-height:2em;
+}
+
+#rights{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:12px;
+	line-height:2em;
+	float:left;
+	font-size:10px;
+	margin-left: 16px;
+	margin-top:4px;
+    margin-bottom:100px;
+}
+
+  
+.list ul {
+	width:100%; 
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:13px;
+	color:#333;
+	margin:0 0 20px 0; 
+	} 
+	
+.list ul li { 
+	list-style-type: disc; 
+	margin-left:50px;
+	color:#333;
+	}
+
+#download {
+	background-color:#F2F2F2;
+	margin:1px 0 20px 0;
+	padding:10px;
+	width:700px; 
+	}
+
+#faq {
+	margin:1px 0 20px 0;
+	width:530px; 
+	text-align:justify; 
+	}
+
+#l_container { 
+	margin:40px; 
+	position:relative;
+	}
+
+/* 112013 Updates */
+#download.dlUpdate { 
+	margin: 0 3% 25px 0;
+	padding: 20px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	float: left;
+	width: 25%; 
+	background-color: #F2F2F2;
+	text-align: center;
+	}
+	#download.dlUpdate h2,
+	#download.dlUpdate p { text-align: left; }
+	#download.dlUpdate h2 { margin-bottom: 5px; }
+	.devices { 
+		display: inline;
+		margin: 10px 5px 0 5px;
+		height: 50px;
+		}
+	#download.dlUpdate p.mbut{ 
+		text-align: center;
+		margin: 25px 0;
+		height: 70px;
+		}
+	a.mock-button {
+		display: inline-block;
+		padding: 6px 10px;
+		border: 1px solid #ED1C2E;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		color: #222;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 12px;
+		line-height: 16px;
+		font-weight: bold;
+		background: #ffffff; /* Old browsers */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyMiUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZGFkYWRhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+		background: -moz-linear-gradient(top,  #ffffff 22%, #dadada 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(22%,#ffffff), color-stop(100%,#dadada)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #ffffff 22%,#dadada 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #ffffff 22%,#dadada 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #ffffff 22%,#dadada 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #ffffff 22%,#dadada 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadada',GradientType=0 ); /* IE6-8 */
+		}
+		a.mock-button:hover {
+			color: #fff;
+			filter: none;
+			background: #ED1C2E;
+			}
+		p.mbut a.mock-button + a.mock-button {margin-top: 10px;}
+
+	#download.dlUpdate small { font-size: 80%; }
+
+	<style>
+
+/* 072114 Updates */
+#download.dlUpdate3 { 
+    margin: 0 3% 25px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    float: left;
+    width: 40%; 
+    height: 470px;
+    background-color: #F2F2F2;
+    text-align: left;
+    }
+#download.dlUpdate4 { 
+    margin: 40px 0 0 5px;
+    padding: 0;
+    float: left;
+    width: 28%; 
+    background-color: #fff;
+    text-align: left;
+    }
+#download.innerWhole { 
+    margin: 0 0 25px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    float: left;
+    width: 91%; 
+    background-color: #F2F2F2;
+    text-align: left;
+    }
+    #download.dlUpdate3 h2,
+    #download.innerWhole h2,
+    #download.dlUpdate3 p,
+    #download.innerWhole p { text-align: left; color: #000;}
+    .devices { 
+        display: inline;
+        margin: 10px 5px 0 5px;
+        height: 50px;
+        }
+    img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+/* 041114 updates Swim APP */
+.swimAPP-left,
+.swimAPP-right { 
+	float: left;
+	margin-right: 20px;
+}
+.swimAPP-left { width: 570px; }
+.swimAPP-right { width: 320px; margin-right: 0; }
+
+.swimAPP-left li { margin-bottom: 10px;}
+
+.swim-float-icon { 
+	float: right;
+	margin-left: 20px;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	}
+
+/* end */
